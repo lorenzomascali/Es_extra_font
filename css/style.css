@@ -1,0 +1,80 @@
+#navbar {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0;
+
+
+}
+
+    .body {
+        background-color: whitesmoke;
+        font-family: Helvetica, sans-serif;
+        margin: 0;
+    }
+
+
+    body {
+        font-family: "Helvetica", sans-serif;
+    }
+
+    .paragrafo {
+        background-color: red;
+
+    }
+
+    .storia {
+        text-align: left;
+        margin-top: 60px;
+        align-items: center;
+    }
+
+    .img_container {
+        display: grid;
+        gap: 15px;
+        grid-template-columns:1fr 1fr ;
+        max-width: 900px;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .img_illustrator img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.visual_header_img {
+    height: max-content;
+    object-fit: cover;
+}
+
+.visual_header {
+    max-height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    background-color:black;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: auto;
+    padding: 20px;
+    font-size: 2px; 
+    font-size: 8px;
+}
+
+.poster {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
